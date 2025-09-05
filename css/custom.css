@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Computer Modern Sans", serif;
+    font-size: 110% !important;
+}
+
+h1,
+h2,
+h4 {
+    padding-top: 4rem;
+    margin-top: -2rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    padding-top: 2rem !important;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+code {
+    display: block;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bs-primary);
+}
+
+p a:hover, li a:hover, p a:focus, li a:focus {
+    border-bottom: 0.1em dotted;
+}
+
+nav a:hover,
+nav a:focus,
+.a-img:hover,
+.a-img:focus
+{
+    border-bottom: none;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+}
+
+.more-pad {
+    padding-top: 1.5em;
+}
+
+.imprint {
+    text-align: center;
+    font-size: 0.7em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.plot {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* Limit width for large devices */
+@media only screen and (min-width: 767.98px) {
+    .ytvideo {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.paper-screenshot {
+    border-radius: 0.5rem;
+}
+
+/* Modifications for paper screenshot on small devices */
+@media only screen and (max-width: 767.98px) {
+    .paper-screenshot-link {
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        overflow: hidden;
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 1rem;
+    }
+
+    .paper-screenshot {
+        max-width: 80%;
+    }
+}
+
+.paper-buttons {
+    margin-top: -1em;
+    /* Same padding as paper-info inherited from class row */
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+}
+
+.paper-button {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+a.btn {
+    display: inline-flex;
+    margin-right: 1em;
+}
+
+.logo {
+    height: 80px;
+    object-fit: contain;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
