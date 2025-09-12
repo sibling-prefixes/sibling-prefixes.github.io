@@ -53,8 +53,10 @@
             </div>
 
             <div>
-                <!-- TODO: Plots and Charts -->
+                <!-- TODO: Plots and Charts. The current ones are just examples. -->
                 <strong style="color: red;">TODO: Plots and Charts</strong>
+                <div id="plot-unq-prefixes" class="plot"></div>
+                <div id="plot-jc-bgp-vs-tuned" class="plot"></div>
             </div>
 
             <div>
@@ -159,22 +161,21 @@
 
 
     <!-- JS STARTS HERE -->
-    <!-- jQuery -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-
     <!-- Bootstrap JS - necessary for expanding the navbar menu -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Hide navbar on click -->
-    <script>
-        $('.nav-item').on('click', function() {
-            $('.navbar-collapse').collapse('hide');
-        });
+    <script src="js/scripts/navbar.js"></script>
 
-    </script>
+    <!-- Highchart plotting libs -->
+    <script src="js/highcharts/highstock.js"></script>
+    <script src="js/highcharts/exporting.js"></script>
+    <script src="js/highcharts/offline-exporting.js"></script>
+    <script src="js/highcharts/export-data.js"></script>
+
+    <!-- Highchart plotting script -->
+    <script src="js/scripts/charts.js"></script>
     <!-- JS ENDS HERE -->
-
-
 
 </body>
 
