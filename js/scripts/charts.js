@@ -6,7 +6,7 @@ Highcharts.setOptions({
 });
 
 
-fetch('sibling_prefixes_data.json')
+fetch('/data/jsons/combined_sibling_prefixes_data.json')
     .then(response => response.json())
     .then(data => {
         // Process data

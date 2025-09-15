@@ -4,6 +4,10 @@
 #VSCode
 .vscode/
 
+# too much data
+data/
+
 #Python
 .venv/
 __pycache__/
+
