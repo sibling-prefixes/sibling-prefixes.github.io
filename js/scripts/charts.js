@@ -11,8 +11,17 @@ function renderCharts(data) {
     avgJacBgp = [];
     avgJacCidr = [];
 
+    const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
     data.forEach(item => {
-        months.push(item.month);
+        let label = item.month;
+        const parts = item.month.split('-');
+        const year = parts[0];
+        const mon = parseInt(parts[1], 10);
+        if (!Number.isNaN(mon) && mon >= 1 && mon <= 12) {
+            label = `${MONTH_NAMES[mon - 1]} '${year.slice(2)}`;
+        }
+        months.push(label);
         counts.push(item.ipv4_prefix_bgp);
         avgJacBgp.push(item.jac_val_bgp);
         avgJacCidr.push(item.jac_val_cidr);
