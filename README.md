@@ -18,7 +18,7 @@ cd python_scripts/
 ```
 
 ## What does each notebook do?
-- duplicate_data.py: duplicates the original csv file.
+- duplicate_data.py: duplicates the original csv file. (No longer in use. We are using the actual csv files. Kept here for reference. Will probably be deleted later)
 - aggregate_data_to_json.py: The script loads all CSV files, attaches a date/month derived from each filename, deduplicates per-month prefix pairs, computes per-month aggregates (mean Jaccard values and count of IPv4 prefixes), and writes the result as JSON.
 
-## For now just run *duplicate_data* and then *aggregate_data_to_json* so you get the json needed to feed the frontend. Obviously, the data used currently is dummy.
+## For now just run *aggregate_data_to_json* so you get the json needed to feed the frontend. 

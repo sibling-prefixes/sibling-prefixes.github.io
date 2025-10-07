@@ -5,13 +5,13 @@
 .vscode/
 
 #Instructions
-*instructions.md
+instructions.md
 
 # too much data. but keep the original and aggregated json
 data/*
 !data/csvs/
 data/csvs/*
-!data/csvs/20240904_08_28_96_max_jac_dmn_as_cntry_pyasn_org_edited.csv
+!data/csvs/20240904_08_28_96_max_jac_dmn_as_cntry_pyasn_org.csv
 
 !data/jsons/
 data/jsons/*
