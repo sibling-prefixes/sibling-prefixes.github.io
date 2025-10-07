@@ -1,19 +1,6 @@
 # sibling-prefixes.github.io
 
-## How to Run?
-```
-python -m http.server 8000
-```
-Or if you want to use npm
-```
-npx http-server
-```
-then open *http://localhost:8000/index.html* in a browser.
-
-### Why do this?
-If you simply open *index.html* in your browser, the .json files won't be loaded due to CORS restrictions. Read more: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSRequestNotHttp
-
-### Data
+## Data
 The data is stored in a directory named *data*. The python scripts need the csv file in *data/csvs/* and they generate the json files to *data/jsons/*. The frontend fetches the data from *data/jsons/* as a fallback option if no server is running.
 
 ## What about the Python scripts?

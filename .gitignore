@@ -4,6 +4,9 @@
 #VSCode
 .vscode/
 
+#Instructions
+*instructions.md
+
 # too much data. but keep the original and aggregated json
 data/*
 !data/csvs/
