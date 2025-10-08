@@ -7,7 +7,8 @@ Highcharts.setOptions({
 
 function renderCharts(data) {
     months = [];
-    counts = [];
+    bgpCounts = [];
+    cidrCounts = [];
     avgJacBgp = [];
     avgJacCidr = [];
 
@@ -22,16 +23,17 @@ function renderCharts(data) {
             label = `${MONTH_NAMES[mon - 1]} '${year.slice(2)}`;
         }
         months.push(label);
-        counts.push(item.ipv4_prefix_bgp);
+        bgpCounts.push(item.unique_bgp_pairs);
+        cidrCounts.push(item.unique_cidr_pairs);
         avgJacBgp.push(item.jac_val_bgp);
         avgJacCidr.push(item.jac_val_cidr);
     });
 
     // Chart 1: Unique BGP Prefix Pairs per Month
     Highcharts.chart('plot-unq-prefixes', {
-        title: { text: "Unique BGP Prefix Pairs per Month" },
+        title: { text: "Unique BGP and CIDR Prefix Pairs per Month" },
         xAxis: { categories: months },
-        yAxis: { title: { text: "Count" } },
+        yAxis: { min: 0, title: { text: "Count" } },
         chart: {
             type: "spline",
             zoomType: "xy"
@@ -46,8 +48,18 @@ function renderCharts(data) {
         }, 
         series: [{
             id: "bgp-unique-prefix-pairs",
-            name: "Unique Pairs",
-            data: counts,
+            name: "Unique BGP Pairs",
+            color: "#6495ed",
+            dashStyle: "Solid", 
+            data: bgpCounts,
+        },
+        {
+            id: "cidr-unique-prefix-pairs",
+            name: "Unique CIDR Pairs",
+            data: cidrCounts,
+            color: "#de3163",
+            dashStyle: "Solid", 
+    
         }]
     });
 
@@ -55,7 +67,7 @@ function renderCharts(data) {
     Highcharts.chart('plot-jc-bgp-vs-tuned', {
         title: { text: "Trends of Jaccard Values: BGP vs CIDR" },
         xAxis: { categories: months },
-        yAxis: { title: { text: "Average Jaccard Value" } },
+        yAxis: { min: 0, title: { text: "Average Jaccard Value" } },
         chart: {
             type: "spline",
             zoomType: "xy"

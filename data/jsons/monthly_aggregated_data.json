@@ -3,294 +3,343 @@
         "month": "2020-09",
         "jac_val_bgp": 0.5855294865787909,
         "jac_val_cidr": 0.7337212008264431,
-        "ipv4_prefix_bgp": 23024
+        "unique_bgp_pairs": 23024,
+        "unique_cidr_pairs": 60591
     },
     {
         "month": "2020-10",
         "jac_val_bgp": 0.48663980713006744,
         "jac_val_cidr": 0.6340949257133993,
-        "ipv4_prefix_bgp": 15986
+        "unique_bgp_pairs": 15986,
+        "unique_cidr_pairs": 44779
     },
     {
         "month": "2020-11",
         "jac_val_bgp": 0.5869749463800388,
         "jac_val_cidr": 0.7347093028174267,
-        "ipv4_prefix_bgp": 23765
+        "unique_bgp_pairs": 23765,
+        "unique_cidr_pairs": 62122
     },
     {
         "month": "2020-12",
         "jac_val_bgp": 0.5984254146713318,
         "jac_val_cidr": 0.7439717271493328,
-        "ipv4_prefix_bgp": 25216
+        "unique_bgp_pairs": 25216,
+        "unique_cidr_pairs": 65098
     },
     {
         "month": "2021-01",
         "jac_val_bgp": 0.5955115493807164,
         "jac_val_cidr": 0.7378284598359872,
-        "ipv4_prefix_bgp": 25155
+        "unique_bgp_pairs": 25155,
+        "unique_cidr_pairs": 65452
     },
     {
         "month": "2021-02",
         "jac_val_bgp": 0.5903986450555602,
         "jac_val_cidr": 0.7344667021675406,
-        "ipv4_prefix_bgp": 24875
+        "unique_bgp_pairs": 24875,
+        "unique_cidr_pairs": 64142
     },
     {
         "month": "2021-03",
         "jac_val_bgp": 0.44517186249028545,
         "jac_val_cidr": 0.6031984414677962,
-        "ipv4_prefix_bgp": 16117
+        "unique_bgp_pairs": 16117,
+        "unique_cidr_pairs": 45181
     },
     {
         "month": "2021-04",
         "jac_val_bgp": 0.6318826110500565,
         "jac_val_cidr": 0.7732013025950994,
-        "ipv4_prefix_bgp": 29832
+        "unique_bgp_pairs": 29832,
+        "unique_cidr_pairs": 75602
     },
     {
         "month": "2021-05",
         "jac_val_bgp": 0.6366404311230082,
         "jac_val_cidr": 0.7780676515198665,
-        "ipv4_prefix_bgp": 30322
+        "unique_bgp_pairs": 30322,
+        "unique_cidr_pairs": 77015
     },
     {
         "month": "2021-06",
         "jac_val_bgp": 0.45785697365411737,
         "jac_val_cidr": 0.6023946206897164,
-        "ipv4_prefix_bgp": 15926
+        "unique_bgp_pairs": 15926,
+        "unique_cidr_pairs": 45161
     },
     {
         "month": "2021-07",
         "jac_val_bgp": 0.46038448013377503,
         "jac_val_cidr": 0.6034150167826382,
-        "ipv4_prefix_bgp": 15985
+        "unique_bgp_pairs": 15985,
+        "unique_cidr_pairs": 45055
     },
     {
         "month": "2021-08",
         "jac_val_bgp": 0.6534046607215923,
         "jac_val_cidr": 0.785444647916014,
-        "ipv4_prefix_bgp": 30939
+        "unique_bgp_pairs": 30939,
+        "unique_cidr_pairs": 77823
     },
     {
         "month": "2021-09",
         "jac_val_bgp": 0.6505900554385625,
         "jac_val_cidr": 0.884487435846843,
-        "ipv4_prefix_bgp": 31209
+        "unique_bgp_pairs": 31209,
+        "unique_cidr_pairs": 78734
     },
     {
         "month": "2021-10",
         "jac_val_bgp": 0.46513548684483613,
         "jac_val_cidr": 0.781076835651357,
-        "ipv4_prefix_bgp": 15667
+        "unique_bgp_pairs": 15667,
+        "unique_cidr_pairs": 45095
     },
     {
         "month": "2021-11",
         "jac_val_bgp": 0.46190457365521626,
         "jac_val_cidr": 0.7726687375954956,
-        "ipv4_prefix_bgp": 15615
+        "unique_bgp_pairs": 15615,
+        "unique_cidr_pairs": 44810
     },
     {
         "month": "2021-12",
         "jac_val_bgp": 0.46201372671145946,
         "jac_val_cidr": 0.7733240011050578,
-        "ipv4_prefix_bgp": 15521
+        "unique_bgp_pairs": 15521,
+        "unique_cidr_pairs": 44820
     },
     {
         "month": "2022-01",
         "jac_val_bgp": 0.45546543993762684,
         "jac_val_cidr": 0.7701790138142797,
-        "ipv4_prefix_bgp": 15849
+        "unique_bgp_pairs": 15849,
+        "unique_cidr_pairs": 45564
     },
     {
         "month": "2022-02",
         "jac_val_bgp": 0.4641830082740349,
         "jac_val_cidr": 0.7758496369456894,
-        "ipv4_prefix_bgp": 16138
+        "unique_bgp_pairs": 16138,
+        "unique_cidr_pairs": 46658
     },
     {
         "month": "2022-03",
         "jac_val_bgp": 0.4558516340675142,
         "jac_val_cidr": 0.7776551296163601,
-        "ipv4_prefix_bgp": 17184
+        "unique_bgp_pairs": 17184,
+        "unique_cidr_pairs": 52067
     },
     {
         "month": "2022-04",
         "jac_val_bgp": 0.4505526917360341,
         "jac_val_cidr": 0.7731803293677596,
-        "ipv4_prefix_bgp": 17390
+        "unique_bgp_pairs": 17390,
+        "unique_cidr_pairs": 52155
     },
     {
         "month": "2022-05",
         "jac_val_bgp": 0.45536658978107875,
         "jac_val_cidr": 0.5968289800630963,
-        "ipv4_prefix_bgp": 18419
+        "unique_bgp_pairs": 18419,
+        "unique_cidr_pairs": 54949
     },
     {
         "month": "2022-06",
         "jac_val_bgp": 0.665880140280013,
         "jac_val_cidr": 0.8892027806307533,
-        "ipv4_prefix_bgp": 36910
+        "unique_bgp_pairs": 36910,
+        "unique_cidr_pairs": 94821
     },
     {
         "month": "2022-07",
         "jac_val_bgp": 0.6691995008026753,
         "jac_val_cidr": 0.8924019556967242,
-        "ipv4_prefix_bgp": 36640
+        "unique_bgp_pairs": 36640,
+        "unique_cidr_pairs": 93631
     },
     {
         "month": "2022-08",
         "jac_val_bgp": 0.631700546382239,
         "jac_val_cidr": 0.8731451534467295,
-        "ipv4_prefix_bgp": 35424
+        "unique_bgp_pairs": 35424,
+        "unique_cidr_pairs": 94106
     },
     {
         "month": "2022-09",
         "jac_val_bgp": 0.6092578407434509,
         "jac_val_cidr": 0.7442798405735083,
-        "ipv4_prefix_bgp": 37820
+        "unique_bgp_pairs": 37820,
+        "unique_cidr_pairs": 101669
     },
     {
         "month": "2022-10",
         "jac_val_bgp": 0.5882365866221276,
         "jac_val_cidr": 0.7296396279055897,
-        "ipv4_prefix_bgp": 39301
+        "unique_bgp_pairs": 39301,
+        "unique_cidr_pairs": 108937
     },
     {
         "month": "2022-11",
         "jac_val_bgp": 0.6019179079294541,
         "jac_val_cidr": 0.7393463515060058,
-        "ipv4_prefix_bgp": 41445
+        "unique_bgp_pairs": 41445,
+        "unique_cidr_pairs": 112942
     },
     {
         "month": "2022-12",
         "jac_val_bgp": 0.5912666454859531,
         "jac_val_cidr": 0.7302663062915236,
-        "ipv4_prefix_bgp": 40846
+        "unique_bgp_pairs": 40846,
+        "unique_cidr_pairs": 112261
     },
     {
         "month": "2023-01",
         "jac_val_bgp": 0.598859627727472,
         "jac_val_cidr": 0.8639193158877618,
-        "ipv4_prefix_bgp": 41313
+        "unique_bgp_pairs": 41313,
+        "unique_cidr_pairs": 113694
     },
     {
         "month": "2023-02",
         "jac_val_bgp": 0.6092510925273206,
         "jac_val_cidr": 0.741754145408678,
-        "ipv4_prefix_bgp": 41376
+        "unique_bgp_pairs": 41376,
+        "unique_cidr_pairs": 113506
     },
     {
         "month": "2023-03",
         "jac_val_bgp": 0.6128010182374293,
         "jac_val_cidr": 0.7504498766644938,
-        "ipv4_prefix_bgp": 40375
+        "unique_bgp_pairs": 40375,
+        "unique_cidr_pairs": 111330
     },
     {
         "month": "2023-04",
         "jac_val_bgp": 0.6207959497859448,
         "jac_val_cidr": 0.7568316862999726,
-        "ipv4_prefix_bgp": 42683
+        "unique_bgp_pairs": 42683,
+        "unique_cidr_pairs": 116677
     },
     {
         "month": "2023-05",
         "jac_val_bgp": 0.6007418717929233,
         "jac_val_cidr": 0.7533434438630964,
-        "ipv4_prefix_bgp": 46463
+        "unique_bgp_pairs": 46463,
+        "unique_cidr_pairs": 134872
     },
     {
         "month": "2023-06",
         "jac_val_bgp": 0.6256645370741131,
         "jac_val_cidr": 0.7625847678581019,
-        "ipv4_prefix_bgp": 41130
+        "unique_bgp_pairs": 41130,
+        "unique_cidr_pairs": 111518
     },
     {
         "month": "2023-07",
         "jac_val_bgp": 0.6405440494565455,
         "jac_val_cidr": 0.765024479104907,
-        "ipv4_prefix_bgp": 43100
+        "unique_bgp_pairs": 43100,
+        "unique_cidr_pairs": 116393
     },
     {
         "month": "2023-08",
         "jac_val_bgp": 0.6258008745329342,
         "jac_val_cidr": 0.7591121527604472,
-        "ipv4_prefix_bgp": 43681
+        "unique_bgp_pairs": 43681,
+        "unique_cidr_pairs": 118553
     },
     {
         "month": "2023-09",
         "jac_val_bgp": 0.6403311643044335,
         "jac_val_cidr": 0.8845922050645944,
-        "ipv4_prefix_bgp": 45201
+        "unique_bgp_pairs": 45201,
+        "unique_cidr_pairs": 124165
     },
     {
         "month": "2023-10",
         "jac_val_bgp": 0.6147058967727227,
         "jac_val_cidr": 0.8636974452041326,
-        "ipv4_prefix_bgp": 52046
+        "unique_bgp_pairs": 52046,
+        "unique_cidr_pairs": 160239
     },
     {
         "month": "2023-11",
         "jac_val_bgp": 0.6342426546969623,
         "jac_val_cidr": 0.8823722350730353,
-        "ipv4_prefix_bgp": 43852
+        "unique_bgp_pairs": 43852,
+        "unique_cidr_pairs": 120682
     },
     {
         "month": "2023-12",
         "jac_val_bgp": 0.6364378758424166,
         "jac_val_cidr": 0.8845908763937678,
-        "ipv4_prefix_bgp": 42683
+        "unique_bgp_pairs": 42683,
+        "unique_cidr_pairs": 116786
     },
     {
         "month": "2024-01",
         "jac_val_bgp": 0.6337093086890596,
         "jac_val_cidr": 0.7639075498986533,
-        "ipv4_prefix_bgp": 44260
+        "unique_bgp_pairs": 44260,
+        "unique_cidr_pairs": 119630
     },
     {
         "month": "2024-02",
         "jac_val_bgp": 0.6400177626717687,
         "jac_val_cidr": 0.8856929456219155,
-        "ipv4_prefix_bgp": 44781
+        "unique_bgp_pairs": 44781,
+        "unique_cidr_pairs": 120732
     },
     {
         "month": "2024-03",
         "jac_val_bgp": 0.648477763160814,
         "jac_val_cidr": 0.7772369407378038,
-        "ipv4_prefix_bgp": 46796
+        "unique_bgp_pairs": 46796,
+        "unique_cidr_pairs": 125699
     },
     {
         "month": "2024-04",
         "jac_val_bgp": 0.6316558372761137,
         "jac_val_cidr": 0.8556100534716968,
-        "ipv4_prefix_bgp": 54551
+        "unique_bgp_pairs": 54551,
+        "unique_cidr_pairs": 159611
     },
     {
         "month": "2024-05",
         "jac_val_bgp": 0.644852546548664,
         "jac_val_cidr": 0.8913295851071437,
-        "ipv4_prefix_bgp": 46598
+        "unique_bgp_pairs": 46598,
+        "unique_cidr_pairs": 125515
     },
     {
         "month": "2024-06",
         "jac_val_bgp": 0.6416075105983171,
         "jac_val_cidr": 0.7671953919827322,
-        "ipv4_prefix_bgp": 46386
+        "unique_bgp_pairs": 46386,
+        "unique_cidr_pairs": 125353
     },
     {
         "month": "2024-07",
         "jac_val_bgp": 0.6379189820123979,
         "jac_val_cidr": 0.8876007234469945,
-        "ipv4_prefix_bgp": 44757
+        "unique_bgp_pairs": 44757,
+        "unique_cidr_pairs": 121572
     },
     {
         "month": "2024-08",
         "jac_val_bgp": 0.6405482481517673,
         "jac_val_cidr": 0.7700975757281491,
-        "ipv4_prefix_bgp": 46592
+        "unique_bgp_pairs": 46592,
+        "unique_cidr_pairs": 126356
     },
     {
         "month": "2024-09",
         "jac_val_bgp": 0.6165150725339476,
         "jac_val_cidr": 0.8704736590681056,
-        "ipv4_prefix_bgp": 53587
+        "unique_bgp_pairs": 53587,
+        "unique_cidr_pairs": 160767
     }
 ]

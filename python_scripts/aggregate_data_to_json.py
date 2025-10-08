@@ -32,18 +32,25 @@ def load_and_aggregate_data():
         # print("Rows per month in combined_df (before deduplication):")
         # print(combined_df.groupby('month').size())
 
-        # Remove duplicates pairs of ipv4_prefix_bgp, and ipv6_prefix_bgp by month
+        # Compute unique pair counts for BGP and CIDR (per month)
+        bgp_pairs = combined_df.drop_duplicates(subset=['month', 'ipv4_prefix_bgp', 'ipv6_prefix_bgp']) \
+                               .groupby('month').size().rename('unique_bgp_pairs')
+        cidr_pairs = combined_df.drop_duplicates(subset=['month', 'ipv4_prefix_cidr', 'ipv6_prefix_cidr']) \
+                                .groupby('month').size().rename('unique_cidr_pairs')
+
+        # Keep original behavior (dedupe BGP pairs) for the rest of the aggregation
         combined_df = combined_df.drop_duplicates(subset=['month', 'ipv4_prefix_bgp', 'ipv6_prefix_bgp'])
 
-        # print("Rows per month in combined_df (after deduplication):")
-        # print(combined_df.groupby('month').size())
-
-        # Aggregate by month
+        # Aggregate by month (as before)
         monthly_agg = combined_df.groupby('month').agg({
             'jac_val_bgp': 'mean',
             'jac_val_cidr': 'mean',
-            'ipv4_prefix_bgp': 'count'
         }).reset_index()
+
+        # Merge the unique-pair counts into the monthly aggregation
+        monthly_agg = monthly_agg.merge(bgp_pairs.reset_index(), on='month', how='left') \
+                                 .merge(cidr_pairs.reset_index(), on='month', how='left') \
+                                 .fillna(0)
 
         return monthly_agg.to_dict('records')
     return []
