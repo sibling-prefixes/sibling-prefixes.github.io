@@ -18,6 +18,8 @@ data/jsons/*
 !data/jsons/monthly_aggregated_data.json
 
 !data/latest/
+data/latest/*
+!data/latest/*_edited.csv
 
 #Python
 .venv/
