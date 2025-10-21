@@ -31,7 +31,7 @@ function renderCharts(data) {
 
     // Chart 1: Unique BGP Prefix Pairs per Month
     Highcharts.chart('plot-unq-prefixes', {
-        title: { text: "Unique BGP and CIDR Prefix Pairs per Month" },
+        title: { text: "Unique BGP and CIDR (/28, /96) Prefix Pairs per Month" },
         xAxis: { categories: months },
         yAxis: { min: 0, title: { text: "Count" } },
         chart: {
@@ -65,7 +65,7 @@ function renderCharts(data) {
 
     // Chart 2: Jaccard Trends
     Highcharts.chart('plot-jc-bgp-vs-tuned', {
-        title: { text: "Trends of Jaccard Values: BGP vs CIDR" },
+        title: { text: "Trends of Jaccard Values: BGP vs CIDR (/28, /96)" },
         xAxis: { categories: months },
         yAxis: { min: 0, title: { text: "Average Jaccard Value" } },
         chart: {
