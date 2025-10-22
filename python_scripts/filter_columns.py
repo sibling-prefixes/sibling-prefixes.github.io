@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('../data/latest/20251008_down_08_28_48.csv')
+df = pd.read_csv('../data/latest/20251008_down_08_28_96.csv')
 
 columns_to_keep = [
     'ipv4_prefix_bgp',
@@ -10,4 +10,4 @@ columns_to_keep = [
 ]
 df_filtered = df[columns_to_keep]
 
-df_filtered.to_csv('../data/latest/20251008_down_08_28_48_edited.csv', index=False)
+df_filtered.to_csv('../data/latest/20251008_down_08_28_96_edited.csv', index=False)
