@@ -341,5 +341,89 @@
         "jac_val_cidr": 0.877632488467394,
         "unique_bgp_pairs": 46989,
         "unique_cidr_pairs": 76035
+    },
+    {
+        "month": "2024-10",
+        "jac_val_bgp": 0.47505817574318043,
+        "jac_val_cidr": 0.8723512810648808,
+        "unique_bgp_pairs": 46338,
+        "unique_cidr_pairs": 77659
+    },
+    {
+        "month": "2024-11",
+        "jac_val_bgp": 0.4799233492530823,
+        "jac_val_cidr": 0.8709159641511133,
+        "unique_bgp_pairs": 46763,
+        "unique_cidr_pairs": 78407
+    },
+    {
+        "month": "2024-12",
+        "jac_val_bgp": 0.4865012907829523,
+        "jac_val_cidr": 0.8749559685986512,
+        "unique_bgp_pairs": 47184,
+        "unique_cidr_pairs": 79121
+    },
+    {
+        "month": "2025-01",
+        "jac_val_bgp": 0.47888891444474896,
+        "jac_val_cidr": 0.8749026569958563,
+        "unique_bgp_pairs": 47148,
+        "unique_cidr_pairs": 78933
+    },
+    {
+        "month": "2025-02",
+        "jac_val_bgp": 0.47665828017404094,
+        "jac_val_cidr": 0.8750687129862667,
+        "unique_bgp_pairs": 47080,
+        "unique_cidr_pairs": 79435
+    },
+    {
+        "month": "2025-03",
+        "jac_val_bgp": 0.503178421524102,
+        "jac_val_cidr": 0.8786669170335428,
+        "unique_bgp_pairs": 52333,
+        "unique_cidr_pairs": 85204
+    },
+    {
+        "month": "2025-04",
+        "jac_val_bgp": 0.38166502417443704,
+        "jac_val_cidr": 0.833320192043362,
+        "unique_bgp_pairs": 50667,
+        "unique_cidr_pairs": 101496
+    },
+    {
+        "month": "2025-05",
+        "jac_val_bgp": 0.3783074916590596,
+        "jac_val_cidr": 0.8360120339623544,
+        "unique_bgp_pairs": 50344,
+        "unique_cidr_pairs": 102232
+    },
+    {
+        "month": "2025-06",
+        "jac_val_bgp": 0.4762123351004331,
+        "jac_val_cidr": 0.8734576186931092,
+        "unique_bgp_pairs": 50864,
+        "unique_cidr_pairs": 86905
+    },
+    {
+        "month": "2025-07",
+        "jac_val_bgp": 0.4789151620305433,
+        "jac_val_cidr": 0.8735927438198677,
+        "unique_bgp_pairs": 51266,
+        "unique_cidr_pairs": 88084
+    },
+    {
+        "month": "2025-08",
+        "jac_val_bgp": 0.46050481024102735,
+        "jac_val_cidr": 0.8676509378771312,
+        "unique_bgp_pairs": 48687,
+        "unique_cidr_pairs": 84975
+    },
+    {
+        "month": "2025-10",
+        "jac_val_bgp": 0.36213714396930097,
+        "jac_val_cidr": 0.8258777720297807,
+        "unique_bgp_pairs": 47395,
+        "unique_cidr_pairs": 99046
     }
 ]
