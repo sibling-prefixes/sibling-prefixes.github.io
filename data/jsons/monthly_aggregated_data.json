@@ -420,6 +420,13 @@
         "unique_cidr_pairs": 84975
     },
     {
+        "month": "2025-09",
+        "jac_val_bgp": 0.37112377296928245,
+        "jac_val_cidr": 0.8317372231106075,
+        "unique_bgp_pairs": 49632,
+        "unique_cidr_pairs": 102826
+    },
+    {
         "month": "2025-10",
         "jac_val_bgp": 0.36213714396930097,
         "jac_val_cidr": 0.8258777720297807,
