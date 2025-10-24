@@ -17,8 +17,7 @@ The scripts are how monthly_aggregated_data.json is created.
 cd python_scripts/
 ```
 
-## What does each notebook do?
+## What does each script do?
 - duplicate_data.py: duplicates the original csv file. (No longer in use. We are using the actual csv files. Kept here for reference. Will probably be deleted later)
 - aggregate_data_to_json.py: The script loads all CSV files, attaches a date/month derived from each filename, deduplicates per-month prefix pairs, computes per-month aggregates (mean Jaccard values and count of IPv4 prefixes), and writes the result as JSON.
-
-## For now just run *aggregate_data_to_json* so you get the json needed to feed the frontend. 
+- filter_columns.py: filters columns on latest processed data to show only the ipv4 and ipv6 prefixes.
