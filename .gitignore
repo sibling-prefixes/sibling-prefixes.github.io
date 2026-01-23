@@ -20,6 +20,7 @@ data/jsons/*
 !data/latest/
 data/latest/*
 !data/latest/*_edited.csv
+!/data/latest/manifest.json
 
 #Python
 .venv/
