@@ -25,3 +25,4 @@ jobs:
             --head test \
             --title "Merge test into main" \
             --body "Auto-created after push to test branch" || true
+            --reviewer sibling-prefixes
