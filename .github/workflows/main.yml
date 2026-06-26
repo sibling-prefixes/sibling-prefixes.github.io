@@ -1,0 +1,27 @@
+name: Open PR from test to main
+
+on:
+  push:
+    branches:
+      - test
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --base main \
+            --head test \
+            --title "Merge test into main" \
+            --body "Auto-created after push to test branch" || true
